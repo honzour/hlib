@@ -1,0 +1,21 @@
+0) remis                            - OK
+1) konce partii                     - OK
+2) chyby pri startu - neni stolek   - OK
+3) padani spojeni - ukoncit partii  - OK
+4) windows                          - OK
+5) hlib - xlib
+6) messagebox
+7) pozorovatel
+8) pocitac
+9) cas pres server
+10) uzivatele guest
+11) elo
+12) www
+13) mysql
+14) http
+15) na spadnuti serveru dobre zareagovat na klientovi
+16) ukonèení                        - OK
+17) leaky                           - OK
+18) pìkný pakovací skript i s javou - OK jako Makefile na Linuxu
+19) zakaz tlacitko start u pozorovatele
+20) zavrit okno pozorovateli po skonceni stolku

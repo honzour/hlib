@@ -1,0 +1,40 @@
+Tento adresáø obsahuje vlastní knihovnu a celou øadu pøíkladù. Knihovna
+je navr¾ena pro statické linkování. Na Unixu (testováno na Linuxu a g++)
+probíhá pøeklad pomocí make bez parametrù. Pro úspì¹ný pøeklad je tøeba mít
+headery a knihovnu od pthread a X. Na Windows je knihovna testována
+s MS Visual C++ 5.0, ale nemìl by být problém s ani 6.0. V¹e by mìlo jít
+pøelo¾it i s jiným C++ pøekladaèem, který zpøístupòuje Win32 API, pokud
+si u¾ivatel sám vytvoøí projekt, Makefile nebo jiný sestavovací nástroj.
+Je tøeba pøilinkovat knihovnu se sockety.
+
+Knihovna se sna¾í øe¹it multiplatformní programování v C++ pod Unixem a Windows
+se zamìøením na GUI, ale i dal¹í dùle¾ité vìci jako vlákna a sockety. V tom
+se podobá napøíklad známé QT knihovnì, ale hlib je minimalistická a navr¾ená
+pro statické linkování, tak¾e se blí¾í spí¹e FLTK nebo Fox Toolkitu.
+I v porovnání s tìmito knihovnami se jedná spí¹e o hraèku ne¾ o skuteènì
+vá¾nì mínìný projekt. Urèitou motivací je autorova snaha napsat nové ©achové
+cetrum, které by fungovalo a nepadalo, s klientem v C++. To se vzhledem k nízké
+prioritì projektu pravdìpodobnì nepodaøí.
+
+evoluce
+  (zatím) jen primitivní vykreslení grafu
+grafy
+  vykraslení grafu a demonstrace dceøiných oken
+hlib
+  vlastní knihovna
+layout
+  pøíklad na layout s pøidáváním a ubíráním tlaèítek
+miny
+  jednoduché hledání min
+pokus
+  pøíklad na kreslení grafu v proprietálním formátu
+prvni
+  první pøíklad na hlib
+sachy
+  budoucí klient pro ¹achový herní server
+sr
+  budoucí ¹achový herní server, pøímo nesouvisí s hlib, je prlatformì závislý
+  na Unixu, slou¾í pro testování pøedchozího pøíkladu
+thread
+  demonstrace vlákna a poslání zprávy
+

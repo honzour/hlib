@@ -1,0 +1,31 @@
+src=src
+out=src
+ladit=-g
+
+CXXFLAGS=${ladit} -I../hlib/src
+
+hlib=../hlib/libhlib.a
+output=listbox
+
+make: buildprogram
+
+.PHONY: buildprogram
+
+buildprogram: buildhlib ${output}
+
+.PHONY: buildhlib
+buildhlib:
+	(cd ../hlib; make)
+
+.PHONY: clean
+clean:
+	rm -f ${output} ${src}/*.o
+	
+objects=${out}/main.o
+
+${objects}: ${hlib}
+
+${output}: ${objects}
+	g++ ${objects}  -L../hlib -lhlib -L/usr/X11R6/lib -lX11 -lpthread ${ladit} -o ${output}
+	
+

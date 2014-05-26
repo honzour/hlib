@@ -1,0 +1,251 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "argbview"=.\argbview\argbview.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "exec_calc"=.\EXEC\CALC\exec_calc.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "exec_pipe_hlavni"=.\EXEC\PIPE\HLAVNI\exec_pipe_hlavni.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "exec_spusteny"=.\EXEC\PIPE\SPUSTENY\exec_spusteny.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "grafy"=.\GRAFY\grafy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "hlib"=.\HLIB\hlib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "layout"=.\layout\layout.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "listbox"=.\listbox\listbox.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "miny"=.\MINY\miny.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "neuro"=.\NEURO\neuro.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "obdelniky"=.\obdelniky\obdelniky.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "prvni"=.\prvni\prvni.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sachy"=.\SACHY\sachy.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "sachylib"=.\SACHYLIB\sachylib.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "sr"=.\SR\sr.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name sachylib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "thread"=.\thread\thread.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name hlib
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
